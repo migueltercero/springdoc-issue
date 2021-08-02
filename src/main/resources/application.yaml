@@ -1,0 +1,15 @@
+spring:
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            dummy:
+              - uri: https://jsonplaceholder.typicode.com/
+springdoc:
+  show-actuator: true
+  swagger-ui:
+    docExpansion: none
+    showExtensions: true
+    showCommonExtensions: true
+    display-query-params: true
